@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>UWP | justSajid</title>
+
+<!-- Favicons - Touch Icons -->
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!-- Responsive Styles -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<!-- Bootstrap Styles -->
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css" media="screen">
+<!-- Carousel -->
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+<!-- FlexSlider -->
+<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<!-- Animate Styles -->
+<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+<!-- Lightbox Styles -->
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
+<!-- General Styles -->
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="css/extralayers.css" media="screen" />	
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+	<div class="animationload">
+    <div class="loader">Loading...</div>
+	</div> 
+    
+    <div id="contentdiv">
+        <div id="slidediv">
+            <a class="close-button" id="hidebutton"><i class="fa fa-times"></i></a>
+            <div class="side-brand">
+                <a href="home.html"><img src="images/side-logo.png" alt="Windows App Development"></a>
+            </div>
+            <div class="sidebmenu clearfix">
+                <ul class="menu clearfix">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="windows.html">Windows</a></li>
+                    <li><a href="appdevelopment.html">App Development</a></li>
+                    <li><a href="codes.html">Codes</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="http://www.sajidalikhan.com/blog">justSajid</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+				<div class="custom-menu pull-left clearfix">
+                    <span><a title="Twitter" href="https://twitter.com/SoftwareWarrior" target="_blank"><i class="fa fa-twitter"></i></a></span>
+                    <span><a title="Facebook" href="https://www.facebook.com/thesajidalikhans" target="_blank"><i class="fa fa-facebook"></i></a></span>
+                    <span><a title="Google Plus" href="https://plus.google.com/+Sajidalikhancom" target="_blank"><i class="fa fa-google-plus"></i></a></span>
+                    <span><a title="Search" href="#" data-toggle="modal" data-target=".search_modal"><i class="fa fa-search"></i></a></span>
+                </div><!-- end custom-menu -->
+            </div><!-- end widget -->    
+        </div>
+    </div>
+    
+	<div id="searhmodal" class="modal fade search_modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<form id="searchform" role="form">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<input type="text" class="form-control" placeholder="What you are looking for?">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	
+    
+    <div id="header-container">
+        <header class="header container transparent">
+            <div class="menu-wrapper">
+                <nav id="navigation" class="navbar yamm" role="navigation">
+                    <div class="navbar-inner">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <i class="fa fa-bars fa-2x"></i>
+                            </button>
+                            <a id="brand" class=" navbar-brand" href="index.html"><img src="images/logo1.png" alt="Windows App Development"></a>
+                        </div><!-- end navbar-header -->
+                        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav  scrollable-menu">
+                                <li class="hover-it"><a href="home.html" target="_blank">Home</a>
+                                    
+                                </li><!-- end yamm-fw -->
+                                <li class="hover-it"><a href="windows.html" target="_blank">Windows</a>
+                                    
+                                </li><!-- end yamm-fw -->
+                                <li class="hover-it"><a href="appdevelopment.html" target="_blank">App Development </a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="codes.html" target="_blank">Codes</a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="http://www.sajidalikhan.com/blog/" target="_blank">justSajid </a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="page-contact-1.html" target="_blank">Contact</a></li>
+                            </ul><!-- end navbar-right -->
+							<div class="custom-menu">
+                                <span><a title="Twitter" href="https://twitter.com/SoftwareWarrior" target="_blank"><i class="fa fa-twitter"></i></a></span>
+                                <span><a title="Facebook" href="https://www.facebook.com/thesajidalikhans" target="_blank"><i class="fa fa-facebook"></i></a></span>
+                                <span><a title="Search" href="#" data-toggle="modal" data-target=".search_modal"><i class="fa fa-search"></i></a></span>
+                                
+                                <span><a class="right-menu" id="showbutton"><i class="fa fa-bars"></i></a></span>
+                                            
+							</div><!-- end custom-menu --> 
+                        </div><!-- end navbar-callopse -->
+                    </div><!-- end navbar-inner -->
+                </nav><!-- end navigation -->
+            </div><!-- menu wrapper -->
+        </header><!-- end header -->
+    </div><!-- end header container -->
+    
+    <section class="halfscreen parallax" style="background-image: url('images/blog/post4/1.png');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+		<div class="light-overlay overlay dark-version">
+        	<div class="page-header-wrap">
+				<div class="container">
+                    <div class="module">
+                        <div class="title">
+                        <h2><span id="rotateme">Simple Navigation in UWP Application</span></h2>
+                        <p class="lead">Lets Perform Some Navigation in UWP App...</p>
+                        </div>
+                    </div><!-- end module -->
+                </div><!-- end container -->
+            </div><!-- end page-header-wrap -->
+        </div><!-- end overlay -->
+    </section><!-- end section -->
+
+	<section class="white-wrapper clearfix">
+		<div class="container">
+			<div class="content-module">
+           		<div class="content halfwidth">
+                
+                    <div class="general-row clearfix">
+                        <div id="post-content" class="col-md-9">
+
+                    <p class="drop-caps full">The Navigation of UWP Apps are extremely cool and easier than other platforms. It allows to enable a variety of intuitive user experiences for moving between apps, pages, and content.</p>
+                    <p>Navigation is the key part of the Application. In your small Apps, you may maintain your contents and functionality in a single page. Perhaps majority of apps really required the multiple pages for contents and functionality. So! When an app has more than a page, you have to provide the navigation experience.</p>
+                    <p>To give the user a great, you really have to care about few major things;</p>
+                <h5>Right Navigation Structure;</h5>
+                            <p>You have to Build such a navigation structure that makes sense to the user is crucial to creating an intuitive navigation experience. The way you arrange these pages into groups defines the app's navigation structure. Basically, there are two common ways to arrange a group of pages;</p>
+                            <p>In a hierarchy;</p>
+                            
+                            <img src="images/blog/post4/2.png" alt="" class="img-responsive aligncenter">
+                            <p>The pages are organized into a tree structure. To reach a child page, you travel through the parent.</p>
+                            <p>As peers;</p>
+                            <img src="images/blog/post4/3.png" alt="" class="img-responsive aligncenter">
+                            <p>The pages exist side-by-side. You can go from one page to another in any order.</p>
+                            <p>Normally an app will use both arrangements;</p>
+                            <img src="images/blog/post4/4.png" alt="" class="img-responsive aligncenter">
+                            <p>The hieratical or tree structure is important you got more than 7 pages because it might be difficult for users to understand the page flow. Perhaps for less than 8 Pages or if the parent child relation is not possible then peer relationship is important.</p>
+                    <br>
+            <h5>Use the Right Navigation Elements;</h5>
+                            <p>The Navigation elements should help the user get to the content they want and should also let users know where they are within the app. However, they also take up space that could be used for content or commanding elements, so it's important to use the navigation elements that are right for your app's structure.</p>
+                            <p>The Navigation elements can provide two services: they help the user get to the content they want, and some elements also let users know where they are within the app. However, they also take up space that the app could use for content or commanding elements, so it's important to use the navigation elements that are just right for your app's structure.</p>
+                            <p>Peer-to-peer navigation elements; It enable navigation between pages in the same level of the same subtree.</p>
+                            <p>If your navigation structure has multiple levels, it is recommended that peer-to-peer navigation elements only link to the peers within their current subtree. Consider the following illustration, which shows a navigation structure that has three levels;</p>
+                            <img src="images/blog/post4/5.png" alt="" class="img-responsive aligncenter">
+                            <p>For level 1, the peer-to-peer navigation element should provide access to pages A, B, C, and D.</p>
+                            <p>At level 2, the peer-to-peer navigation elements for the A2 pages should only link to the other A2 pages. They should not link to level 2 pages in the C subtree.</p>
+                            <img src="images/blog/post4/6.png" alt="" class="img-responsive aligncenter">
+                            <p>Hierarchical navigation elements provide navigation between a parent page and its child pages.</p>
+                        <br>
+                <h5>Make your app work well with system-level navigation features</h5>
+                            <p>The Universal Windows Platform (UWP) provides a consistent back navigation system for traversing the user's navigation history within an app and, depending on the device, from app to app.</p>
+                            <p>The UI for the system back button is optimized for each form factor and input device type, but the navigation experience is global and consistent across devices and UWP apps.</p>
+                            <img src="images/blog/post4/7.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>Now with UWP you’ve some more alternative input types that don't rely on a back button UI, but still provide the exact same functionality.</p>
+                            <p>Including Keyboard and Cortana (Hey Cortana, go back). : - )</p>
+                                <p>When the user pressed the back button. The user expects the back button to navigate to the previous location in the app's navigation history.</p>
+                            <p>Previously in Universal Applications, it could have several pages and when we want to navigate through different pages, it opens a new window. But in Universal Windows Platform, there is only one window. When we want to open a different page, it opens a new frame.</p>
+                            <p>So! let’s see how it works in Universal Windows Platform page navigation. Let’s get started;</p>
+                            
+                                <blockquote>Simply create a new blank project in Visual Studio with name ‘UWPNavigation’;</blockquote>
+                    
+                            <img src="images/blog/post4/8.jpg" alt="" class="img-responsive aligncenter">
+                            <p>So in order to perform navigation, we need more than one page. So let’s create another Blank Page. Simply click upon add new items by right click the project and create a Blank Page with name ‘Second Page’;</p>
+                            <img src="images/blog/post4/9.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>Now back to the MainPage and create a button object;</blockquote>
+                            <img src="images/blog/post4/10.png" alt="" class="img-responsive aligncenter">  
+                            <blockquote>And modify the Click attribute from properties;</blockquote>
+                            <span style="background-color: #FFFF00">&lt;Button x:Name="button" <br>
+                Content="Next Page" <br>
+                HorizontalAlignment="Left" <br>
+                Margin="162,279,0,0" <br>
+                VerticalAlignment="Top" Height="49" <br>
+                Width="80"<br>
+                Click="NextPage_Click" &gt;</span>
+                            
+                            <blockquote>In order to make the page arrtractice, also add TextBlock to show some text on the Page;</blockquote>
+                            <span style="background-color: #FFFF00">
+                            &lt;StackPanel Grid.Row="0" Margin="19,0,0,0"&gt;<br>
+                                &lt;TextBlock Text="Page Navigation"<br>
+                                Style="{ThemeResource TitleTextBlockStyle}"<br>
+                                Margin="0,12,0,0"/&gt;
+                                &lt;TextBlock Text="Main Page"<br>
+                                Margin="0,-6.5,0,26.5"<br>
+                                Style="{ThemeResource HeaderTextBlockStyle}"<br>
+                                CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/&gt;<br>
+                            &lt;/StackPanel&gt;
+                            </span>
+                            
+                            <blockquote>Now in the logical file, insert the event handler for the Button object;</blockquote>
+                            <img src="images/blog/post4/11.png" alt="" class="img-responsive aligncenter">
+                            <span style="background-color: #FFFF00">this.Frame.Navigate(typeof(SecondPage));</span>
+                            <p>So this one line will navigate you from one page to another page…</p>
+                            
+                            <p>Now in Second Page, modify the page by adding two TextBlocks for better response;</p>
+                            
+                            <img src="images/blog/post4/12.png" alt="" class="img-responsive aligncenter">
+                            
+                            <span style="background-color: #FFFF00">
+                            &lt;TextBlock Text="Page Navigation"<br>
+                                Style="{ThemeResource TitleTextBlockStyle}" <br>
+                                Margin="0,12,0,0"/&gt;<br>
+                                &lt;TextBlock Text="Second Page"<br>
+                                Margin="0,-6.5,0,26.5"<br>
+                                Style="{ThemeResource HeaderTextBlockStyle}"<br>
+                                CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"<br>
+                                SelectionChanged="TextBlock_SelectionChanged"/&gt;
+                                
+                            </span>
+                            
+                            <blockquote>Now add the back button;</blockquote>
+                            <img src="images/blog/post4/13.png" alt="" class="img-responsive aligncenter">
+                            
+                            <span style="background-color: #FFFF00">
+                            &lt;AppBarButton x:Name="appBarButton"<br>
+                                HorizontalAlignment="Left"<br>
+                                Icon="Back" Label=""<br>
+                                VerticalAlignment="Top"<br>
+                                Width="45" Height="44"<br>
+                                Click="appBarButton_Click"/&gt;
+                            </span>
+                            
+                            <blockquote>Like before, by adding a one line code event handler, the appBarButton will take us to MainPage again;</blockquote>
+                            <img src="images/blog/post4/14.png" alt="" class="img-responsive aligncenter">
+                            <span style="background-color: #FFFF00">
+                            this.Frame.Navigate(typeof(MainPage));
+                            </span>
+                            
+                            <blockquote>Now if we run, we can see the navigation works according to our expectations;</blockquote>
+                            <img src="images/blog/post4/15.png" alt="" class="img-responsive aligncenter">
+                            <img src="images/blog/post4/16.png" alt="" class="img-responsive aligncenter">
+                            <br>
+                            <blockquote>So! See the navigation is so entrusting and logically managed in our App…</blockquote>
+                            
+                            <div class="title">
+                        	   <h3>For Handson Demo</h3>
+                            </div>
+                            <blockquote>
+							In order to get a best hands-on experience along with the Blog. Try out the code either By <a href="https://code.msdn.microsoft.com/SIMPLE-NAVIGATION-IN-UWP-39d97826" target="_blank">MSDN Code Samples</a> or By <a href="https://github.com/SoftwareWarrior/SIMPLE-NAVIGATION-IN-UWP-APPLICATION" target="_blank">GitHub</a>..
+							<small>Software<cite title="Source Title">Warrior</cite></small>
+						</blockquote>
+                    
+                        </div><!-- end post-content -->
+					<div id="sidebar" class="col-md-3">
+                    	<div class="widget clearfix">
+                            <div class="title">
+                                <h3>Previous Posts</h3> 
+                            </div><!-- end title -->
+                            <ul class="portfolio_ul">
+                                <li><a target="_blank" href="#">TBA</a></li>
+                            </ul>
+                        </div><!-- end widget -->
+
+                    	<div class="widget clearfix">
+                            <div class="title">
+                                <h3>Next Posts</h3> 
+                            </div><!-- end title -->
+                            <ul class="portfolio_ul">
+                                <li><a target="_blank" href="#">TBA </a></li>
+                                
+                            </ul>
+                        </div><!-- end widget -->
+					</div><!-- end sidebar -->
+                    </div><!-- end row -->
+                    
+                                    <div class="post_bottom clearfix">
+                                        <div class="next_prev text-center">
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#">← Previews</a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#">Next →</a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- next_prev --> 
+                                    </div><!-- post bottom -->
+                    
+                    <div class="module-widget">
+                               <div class="contact_form row clearfix">
+                                    <form id="commentform" action="#" name="contactform" method="post">
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="email" id="email" class="form-control" placeholder="Email Address">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"> 
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                                            <textarea class="form-control active" name="comments" id="comments" rows="6" placeholder="Message"></textarea>
+                                            <button type="submit" value="SEND" id="submit" class="btn btn-primary pull-right">Send Query</button>
+                                        </div>
+                                    </form> 
+                                </div><!-- end contact-form -->
+							</div><!-- end widget -->
+						<br><br><br> 
+                </div><!-- end content -->
+			</div><!-- end module --> 
+		</div><!-- end container -->
+        
+    </section><!-- end white-wrapper-bg -->  
+    
+    
+    <footer id="footer-1" class="footer">
+    	<div class="container">
+        	<div class="clearfix">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="widget first">
+                        <img src="images/flogo.png" alt=""><br><br>
+                        <p>Universal App Development is the beginning of New Era in App Development. One Windows Platform. One Core Operating System. One Application Platform. One Gaming Social Network and One Store.</p>
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="widget first">
+                        <div class="title">
+                            <h3>Contact Us</h3>
+                        </div><!-- end title -->
+                        
+                        <div class="contact_form row clearfix">
+                        <div id="message"></div>
+                            <form id="contactform" action="http://www.sajidalikhan.com/html/justSajid/contact.php" name="contactform" method="post">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"> 
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                                    <textarea class="form-control active" name="comments" id="comments" rows="6" placeholder="Message"></textarea>
+                                    <button type="submit" value="SEND" id="submit" class="btn btn-primary pull-right">Submit</button>
+                                </div>
+                            </form>    
+                        </div><!-- end contact-form -->
+                        
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="widget">
+                        <div class="title">
+                            <h3>Twitter Feeds</h3>
+                        </div><!-- end title -->
+                        <a class="twitter-timeline" href="https://twitter.com/SoftwareWarrior" data-widget-id="660533056776699904">Tweets by @SoftwareWarrior</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        
+                        <!-- end twiteer_feed --> 
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                
+                
+                
+                
+            </div><!-- end row -->
+    	</div><!-- end container -->
+    </footer><!-- end #footer-style-1 -->
+    
+    <div id="copyrights">
+    	<div class="container">
+        	<div class="clearfix">
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="copyright-text">
+                        <p>Copyright © 2015 - Designed by Sajid Ali Khan</p>
+                    </div><!-- end copyright-text -->
+                </div><!-- end widget -->
+                <div class="col-lg-7 col-md-6 col-sm-12 clearfix">
+                    <div class="footer-menu">
+                        <ul class="menu">
+                            <li class="active"><a href="home.html" target="_blank">Home</a></li>
+                            <li><a href="appdevelopment.html" target="_blank">App Development</a></li>
+                            <li><a href="codes.html" target="_blank">Codes</a></li>
+                            <li><a href="features.html" target="_blank">Features</a></li>
+                            <li><a href="#" target="_blank">justSajid</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div><!-- end large-7 --> 
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+  	<div class="dmtop">Scroll to Top</div>
+
+      
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/retina.js"></script>
+<script src="js/jquery.jigowatt.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- FlexSlider Scripts-->
+<script src="js/jquery.flexslider.js"></script>
+<script>
+(function($) {
+"use strict";
+$(window).load(function() {
+	$('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+	directionNav: true 
+	});
+});
+})(jQuery);
+</script>
+
+<script src="js/owl.carousel.min.js"></script>
+<script>
+// Carousel
+	(function($) {
+	"use strict";
+    $(document).ready(function() {
+    var owl = $("#clients_carousel");
+    owl.owlCarousel({
+    items : 4, //10 items above 1000px browser width
+    itemsDesktop : [1000,4], //5 items between 1000px and 901px
+    itemsDesktopSmall : [900,2], // betweem 900px and 601px
+    itemsTablet: [600,2], //2 items between 600 and 0
+	navigation : false,
+	pagination : false,
+	autoPlay : true
+    });  
+    });
+	})(jQuery);
+</script>
+
+<script src="js/jquery.fitvids.js"></script>
+<script>
+	(function($) {
+	"use strict";
+	  $(document).ready(function(){
+		// Target your .container, .wrapper, .post, etc.
+		$(".media-element").fitVids();
+	  });
+  	})(jQuery);
+</script>
+
+<!-- Lighbox Effect -->
+<script src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+	(function($) {
+	"use strict";
+        jQuery('a[data-gal]').each(function() {
+            jQuery(this).attr('rel', jQuery(this).data('gal'));
+		});  	
+		jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'light_square',social_tools:false,deeplinking:false});
+	})(jQuery);
+</script>
+
+</body>
+</html>

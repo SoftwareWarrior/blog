@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>UWP | justSajid</title>
+
+<!-- Favicons - Touch Icons -->
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!-- Responsive Styles -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<!-- Bootstrap Styles -->
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css" media="screen">
+<!-- Carousel -->
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+<!-- FlexSlider -->
+<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<!-- Animate Styles -->
+<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+<!-- Lightbox Styles -->
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
+<!-- General Styles -->
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="css/extralayers.css" media="screen" />	
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+	<div class="animationload">
+    <div class="loader">Loading...</div>
+	</div> 
+    
+    <div id="contentdiv">
+        <div id="slidediv">
+            <a class="close-button" id="hidebutton"><i class="fa fa-times"></i></a>
+            <div class="side-brand">
+                <a href="home.html"><img src="images/side-logo.png" alt="Windows App Development"></a>
+            </div>
+            <div class="sidebmenu clearfix">
+                <ul class="menu clearfix">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="windows.html">Windows</a></li>
+                    <li><a href="appdevelopment.html">App Development</a></li>
+                    <li><a href="codes.html">Codes</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="http://www.sajidalikhan.com/blog">justSajid</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+				<div class="custom-menu pull-left clearfix">
+                    <span><a title="Twitter" href="https://twitter.com/SoftwareWarrior" target="_blank"><i class="fa fa-twitter"></i></a></span>
+                    <span><a title="Facebook" href="https://www.facebook.com/thesajidalikhans" target="_blank"><i class="fa fa-facebook"></i></a></span>
+                    <span><a title="Google Plus" href="https://plus.google.com/+Sajidalikhancom" target="_blank"><i class="fa fa-google-plus"></i></a></span>
+                    <span><a title="Search" href="#" data-toggle="modal" data-target=".search_modal"><i class="fa fa-search"></i></a></span>
+                </div><!-- end custom-menu -->
+            </div><!-- end widget -->    
+        </div>
+    </div>
+    
+	<div id="searhmodal" class="modal fade search_modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<form id="searchform" role="form">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<input type="text" class="form-control" placeholder="What you are looking for?">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	
+    
+    <div id="header-container">
+        <header class="header container transparent">
+            <div class="menu-wrapper">
+                <nav id="navigation" class="navbar yamm" role="navigation">
+                    <div class="navbar-inner">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <i class="fa fa-bars fa-2x"></i>
+                            </button>
+                            <a id="brand" class=" navbar-brand" href="index.html"><img src="images/logo1.png" alt="Windows App Development"></a>
+                        </div><!-- end navbar-header -->
+                        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav  scrollable-menu">
+                                <li class="hover-it"><a href="home.html" target="_blank">Home</a>
+                                    
+                                </li><!-- end yamm-fw -->
+                                <li class="hover-it"><a href="windows.html" target="_blank">Windows</a>
+                                    
+                                </li><!-- end yamm-fw -->
+                                <li class="hover-it"><a href="appdevelopment.html" target="_blank">App Development </a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="codes.html" target="_blank">Codes</a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="http://www.sajidalikhan.com/blog/" target="_blank">justSajid </a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="page-contact-1.html" target="_blank">Contact</a></li>
+                            </ul><!-- end navbar-right -->
+							<div class="custom-menu">
+                                <span><a title="Twitter" href="https://twitter.com/SoftwareWarrior" target="_blank"><i class="fa fa-twitter"></i></a></span>
+                                <span><a title="Facebook" href="https://www.facebook.com/thesajidalikhans" target="_blank"><i class="fa fa-facebook"></i></a></span>
+                                <span><a title="Search" href="#" data-toggle="modal" data-target=".search_modal"><i class="fa fa-search"></i></a></span>
+                                
+                                <span><a class="right-menu" id="showbutton"><i class="fa fa-bars"></i></a></span>
+                                            
+							</div><!-- end custom-menu --> 
+                        </div><!-- end navbar-callopse -->
+                    </div><!-- end navbar-inner -->
+                </nav><!-- end navigation -->
+            </div><!-- menu wrapper -->
+        </header><!-- end header -->
+    </div><!-- end header container -->
+    
+    <section class="halfscreen parallax" style="background-image: url('images/blog/post5/1.png');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+		<div class="light-overlay overlay dark-version">
+        	<div class="page-header-wrap">
+				<div class="container">
+                    <div class="module">
+                        <div class="title">
+                        <h2><span id="rotateme">Drawing in Microsoft Blend 2015 for Visual Studio</span></h2>
+                        <p class="lead">Lets Start Designing with Microsoft Blend for Visual Studio...</p>
+                        </div>
+                    </div><!-- end module -->
+                </div><!-- end container -->
+            </div><!-- end page-header-wrap -->
+        </div><!-- end overlay -->
+    </section><!-- end section -->
+
+	<section class="white-wrapper clearfix">
+		<div class="container">
+			<div class="content-module">
+           		<div class="content halfwidth">
+                
+                    <div class="general-row clearfix">
+                        <div id="post-content" class="col-md-9">
+
+                    <p class="drop-caps full">Blend is perfect tool to design your app. The Blend 2015 has similar look with Visual Studio 2015 and feel of more support for designers. Whatever you do with your project by staying at any of the platform, the changes will automatically synchronous across the project among these two tools. Like Visual Studio, you can also create project in Blend and start working upon it like Visual Studio and you feel exactly the home environment which you feel with Visual Studio, perhaps the main focus of Microsoft Blend is towards designing, so you will have more designer lover environment over here. </p>
+                            <blockquote>So let’s start by creating an empty project in Microsoft Blend 2015;</blockquote>
+                            <img src="images/blog/post5/2.png" alt="" class="img-responsive aligncenter">
+                            <div class="media-element entry">
+                                     <iframe src="http://www.youtube.com/embed/sMXAvlJbqBU?rel=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div><!-- end media -->
+                    <br>
+                            <blockquote>Microsoft Blend will start the project and open a great designer environment for you;</blockquote>
+                            <img src="images/blog/post5/3.png" alt="" class="img-responsive aligncenter">
+                            
+                        <br>
+                                <p>To Create some UI, you need some hands-on with Blend features;</p>
+                                <blockquote>Let’s Start one by one;</blockquote>
+                    
+                            
+                            <img src="images/blog/post5/4.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>On the left top side of Blend, you can see the Solution Explorer, Assets, States and Data. This section is related to your Project. Perhaps it is also designed in such a way that help you in the design of your app…</p>
+                            
+                            <img src="images/blog/post5/5.png" alt="" class="img-responsive aligncenter">
+                            <p>At the left bottom, you can see the section of Objects and Timeline that help you to animate your design. </p>
+                            <ol type="i">
+                                <li><b>Objects view:</b>  You can drill down to varying levels of detail. You can also add layers to further organize objects on the artboard. That way you can lock and hide them as a group.</li>
+                                <li><b>Record mode indicator:</b>  That tell you whether you’re recording property changes in a timeline.</li>
+                                <li><b>Storyboard picker:</b>  View a list of storyboards that you’ve created.</li>
+                                <li><b>Close storyboard:</b>  Close the current storyboard.</li>
+                                <li><b>Storyboard options:</b>  Create, duplicate, reverse, delete, rename, or close a storyboard.</li>
+                                <li><b>Playback controls:</b> It Navigate through the timeline. You can also drag the playhead to navigate through (or scrub) the timeline.</li>
+                                <li><b>Return scope to: </b> Scope the objects view back to the previous root object or previous scope. You can do this only when you’re modifying a style or template.</li>
+                                <li><b>Record a keyframe: </b>Record a snapshot of the properties of the selected object at the current point in time. </li>
+                                <li><b>Snapping options: </b>Set timeline snapping, snap resolution, and turn off timeline snapping. </li>
+                                <li><b> Show/hide, Lock/unlock:</b>Show or hide the visibility and locking options for the objects view. </li>
+                                <li><b>Playhead position on the timeline: </b> Show the current time in milliseconds. You can also enter a time value directly in this field to jump to a particular point in time. The precision depends on the snap resolution set in the Snapping Options. </li>
+                                <li><b>Playhead: </b>Determine what point in time the animation is at. You can drag the playhead across the timeline to preview animation. </li>
+                                <li><b>Keyframes set on timelines: </b> Change a property value at a specific point in time.</li>
+                                <li><b>Change order of objects:  </b>Set the display order of objects. Click this button to arrange objects in the structure view by Z order (front-to-back) or by markup order (the order in which they appear in XAML view). </li>
+                                <li><b>Timeline zoom: </b>Set the zoom resolution of the timeline. Zooming in lets you edit an animation with more detail, and zooming out shows more of an overview of what is happening over longer periods of time. If you zoom in but can't set a keyframe at the position in time that you want, verify that the snap resolution is set high enough. </li>
+                                <li><b>Timeline composition area:  </b> View the timeline, and move keyframes around by dragging them or using their shortcut menus.</li>
+                            </ol>
+                            <p>On the right side of the blend, there’s the property windows that will help you to customize your stuff;</p>
+                            
+                            <img src="images/blog/post5/6.png" alt="" class="img-responsive aligncenter">
+                            <li><b>Name and Type </b>View the icon, name and type of the selected object. </li>
+                            <li><b>Arrange by </b>Arrange properties alphabetically by name, source, or category. </li>
+                            <li><b>Brush properties </b> Set the visual properties for brushes such as Fill brush, Stroke brush, and Foreground brush.</li>
+                            <li><b>Color editor </b>Use for solid color and gradient brushes. </li>
+                            <li><b>Color picker </b>Select a color. </li>
+                            <li><b>Color chips </b>View the initial color, current color, and last color </li>
+                            <li><b>Eyedroppers </b>Use the color of any element on your screen. The Color eyedropper is available when the Solid color brush is selected. The Gradient eyedropper is available when the Gradient brush is selected. </li>
+                            <li><b>Properties and Events </b> Set properties or choose events for a selected element.</li>
+                            <li><b>Search box </b>Search for properties. Filter the properties that are displayed by typing in the Search box. </li>
+                            <li><b>Brush editor tabs </b>Use to select a brush editor. You can choose No brush, Solid Color brush, Gradient brush, Tile brush, or Brush resource. </li>
+                            <li><b>Color resources  </b> Apply the exact same color to different properties. The Color Resources tab includes Local Resources and System Resources.</li>
+                            <li><b>RGB color space </b>Modify the color by adjusting the values for the R, G, or B (red, green, blue) number editors. </li>
+                            <li><b>Alpha channel  </b> Modify the Alpha value by using the number editor next to A.</li>
+                            <li><b>Convert color to resource </b>Convert the selected color to a color resource. Color resources are available when you click the Color resources tab. </li>
+                            <li><b>Hex value </b>View the hexadecimal value of the color displayed. </li>
+                            <li><b>Gradient slider </b> Appears only if a gradient brush is selected.</li>
+                            <li><b>Show advanced properties </b>View categories of properties that are less commonly used. </li>
+                            
+                            
+                            <p>The Asset window help you to manage your assets easily and utilize them according to need;</p>
+                            <img src="images/blog/post5/7.png" alt="" class="img-responsive aligncenter">
+                            <li><b>Search box </b> Type in the Search box to filter the list of assets.</li>
+                            <li><b>Grid mode and List mode </b> Switch between the Grid mode view and the List mode view of assets.</li>
+                            <li><b> Assets categories</b> Click a category or subcategory to view the list of assets in that category.</li>
+                            <li><b>Styles </b>Show all the styles that are contained in the resource dictionary. </li>
+                            <li><b>Description </b>View a description of the selected assets category or subcategory. </li>
+                            
+                            
+                            <p>The Tools Panel of the Blend is really cool, its help you to directly design your app by using helpful tools from the tools panel.</p>
+                            <img src="images/blog/post5/8.png" alt="" class="img-responsive aligncenter">
+                            <li><b>Selection tools    </b>Select objects and paths.
+Use the Direct Selection tool to select nested objects and path segments.
+ </li>
+                            <li><b>View tools  </b> Adjust the view of the artboard, such as for panning and zooming.</li>
+                            <li><b>Brush tools </b> Work with the visual attributes of an object, such as transforming a brush, painting an object, or selecting the attributes of one object to apply them to another object.</li>
+                            <li><b>Object tools  </b>Draw the most common objects on the artboard, such as paths, shapes, layout panels, text, and controls. </li>
+                            <li><b>Asset tools </b>Access the Assets panel and to show the most recently used asset from the library. </li>
+                           
+                            
+                            <p>So now do some hands on experience by using these great features provided by Blend and see how easy is to design and develop your app in Blend 2015.</p>
+                            <p>Let’s start by using Tool Panels;</p>
+                            
+                            <blockquote>On our MainPage Design Surface, lets start drawing by draw a rectangle from Tools Panel;</blockquote>
+                            
+                            <img src="images/blog/post5/9.png" alt="" class="img-responsive aligncenter">
+                            <p>You will see, a rectangle will draw over the Design Serface...</p>
+                            
+                            <blockquote>Let’s start by hands on with Pen Tool from the Tools Panel;</blockquote>
+                            <p>Simply select the Pen Tool and click upon the Design Surface were you want your path begins from that line forward a stretch line with draw over the surface upon each click. However, if you click and drag you create a buzzy point which will create a curve over the design surface;</p>
+                            <img src="images/blog/post5/10.png" alt="" class="img-responsive aligncenter">
+                            <p>The longer you drag; the more curve you get. You can either open the path or close the path by clicking back to starting point;</p>
+                            
+                            <img src="images/blog/post5/11.png" alt="" class="img-responsive aligncenter">
+                            <p>Paths can be open means that’re not a complete loop or they can be closed like here.</p>
+                            <p>Further you can add or remove nodes by clicking upon the line.</p>
+                            <blockquote>The Direct Selection tool will help you to select anything from the design surface;</blockquote>
+                            <img src="images/blog/post5/12.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>Now by simply go to properties, we can fill the shape with different colors;</blockquote>
+                            <img src="images/blog/post5/13.png" alt="" class="img-responsive aligncenter">
+                            <p>Now let’s start working with Gradients;</p>
+                            <blockquote>Let’s create a Rectangle over the Design Surface;</blockquote>
+                            <img src="images/blog/post5/14.png" alt="" class="img-responsive aligncenter">
+                            
+                            <blockquote>Now from the properties window, lets apply a Gradient from the brush editor;</blockquote>
+                            <img src="images/blog/post5/15.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>By Default, the Gradient which we give is Black to while linear gradient as shown above, perhaps you can add additional gradient nodes by clicking upon the gradient bar;</blockquote>
+                            <img src="images/blog/post5/16.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>And you can change the color of the gradient as the color of the solid brush;</blockquote>
+                            <img src="images/blog/post5/17.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>From the Gradient Tool from the tools panel, you can more customize the gradient by changes the position of head and tail;</blockquote>
+                            <img src="images/blog/post5/18.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>So that’s how you can play with Gradients Tool in the Blend…</p>
+                            <p>So let’s play with shapes and use the Combine, Unit, Divide and Subtract operations upon it;</p>
+                            
+                            <blockquote>Simply draw two eclipse from the Tools Panel and add some Gradients to it;</blockquote>
+                            <img src="images/blog/post5/19.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>Now simply select the both objects from Object and Timeline window;</blockquote>
+                            <img src="images/blog/post5/20.png" alt="" class="img-responsive aligncenter">
+                            
+                            <blockquote>Now simply right click upon the shapes objects and go to combinations and then perform operations;</blockquote>
+                            <img src="images/blog/post5/21.png" alt="" class="img-responsive aligncenter">
+                            
+                            <blockquote>When Click upon Unit it will make the app as one unit;</blockquote>
+                            <img src="images/blog/post5/22.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>When we perform the Divide operation the it will show division b/w two shapes;</blockquote>
+                            <img src="images/blog/post5/23.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>If we perform the Intersect Operation, then it will show the intersection area of both shapes;</blockquote>
+                            <img src="images/blog/post5/24.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>If we perform the Subtract operation, it will show the subtract view of one shape from the other;</blockquote>
+                            <img src="images/blog/post5/25.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>And if we perform the Exclude Overlap operation the it will exclude the overlap area of both shapes;</blockquote>
+                            <img src="images/blog/post5/26.png" alt="" class="img-responsive aligncenter">
+                            <blockquote>So! As you see how the magic happened in Blend by just few clicks. Designs changes very smartly and make our life easy. : - )</blockquote>
+                            
+                            <div class="title">
+                        	   <h3>For Handson Demo</h3>
+                            </div>
+                            <blockquote>
+							In order to get a best hands-on experience along with the Blog. Try out the code either By <a href="https://code.msdn.microsoft.com/DRAWING-IN-BLEND-2015-FOR-16ea9240" target="_blank">MSDN Code Samples</a> or By <a href="https://github.com/SoftwareWarrior/DRAWING-IN-MICROSOFT-BLEND-2015-FOR-VISUAL-STUDIO" target="_blank">GitHub</a>..
+							<small>Software<cite title="Source Title">Warrior</cite></small>
+						</blockquote>
+                    
+                        </div><!-- end post-content -->
+					<div id="sidebar" class="col-md-3">
+                    	<div class="widget clearfix">
+                            <div class="title">
+                                <h3>Previous Posts</h3> 
+                            </div><!-- end title -->
+                            <ul class="portfolio_ul">
+                                <li><a target="_blank" href="#">TBA</a></li>
+                            </ul>
+                        </div><!-- end widget -->
+
+                    	<div class="widget clearfix">
+                            <div class="title">
+                                <h3>Next Posts</h3> 
+                            </div><!-- end title -->
+                            <ul class="portfolio_ul">
+                                <li><a target="_blank" href="#">TBA </a></li>
+                                
+                            </ul>
+                        </div><!-- end widget -->
+					</div><!-- end sidebar -->
+                    </div><!-- end row -->
+                    
+                                    <div class="post_bottom clearfix">
+                                        <div class="next_prev text-center">
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#">← Previews</a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#">Next →</a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- next_prev --> 
+                                    </div><!-- post bottom -->
+                    
+                    <div class="module-widget">
+                               <div class="contact_form row clearfix">
+                                    <form id="commentform" action="#" name="contactform" method="post">
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="email" id="email" class="form-control" placeholder="Email Address">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"> 
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                                            <textarea class="form-control active" name="comments" id="comments" rows="6" placeholder="Message"></textarea>
+                                            <button type="submit" value="SEND" id="submit" class="btn btn-primary pull-right">Send Query</button>
+                                        </div>
+                                    </form> 
+                                </div><!-- end contact-form -->
+							</div><!-- end widget -->
+						<br><br><br> 
+                </div><!-- end content -->
+			</div><!-- end module --> 
+		</div><!-- end container -->
+        
+    </section><!-- end white-wrapper-bg -->  
+    
+    
+    <footer id="footer-1" class="footer">
+    	<div class="container">
+        	<div class="clearfix">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="widget first">
+                        <img src="images/flogo.png" alt=""><br><br>
+                        <p>Universal App Development is the beginning of New Era in App Development. One Windows Platform. One Core Operating System. One Application Platform. One Gaming Social Network and One Store.</p>
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="widget first">
+                        <div class="title">
+                            <h3>Contact Us</h3>
+                        </div><!-- end title -->
+                        
+                        <div class="contact_form row clearfix">
+                        <div id="message"></div>
+                            <form id="contactform" action="http://www.sajidalikhan.com/html/justSajid/contact.php" name="contactform" method="post">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"> 
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                                    <textarea class="form-control active" name="comments" id="comments" rows="6" placeholder="Message"></textarea>
+                                    <button type="submit" value="SEND" id="submit" class="btn btn-primary pull-right">Submit</button>
+                                </div>
+                            </form>    
+                        </div><!-- end contact-form -->
+                        
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="widget">
+                        <div class="title">
+                            <h3>Twitter Feeds</h3>
+                        </div><!-- end title -->
+                        <a class="twitter-timeline" href="https://twitter.com/SoftwareWarrior" data-widget-id="660533056776699904">Tweets by @SoftwareWarrior</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        
+                        <!-- end twiteer_feed --> 
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                
+                
+                
+                
+            </div><!-- end row -->
+    	</div><!-- end container -->
+    </footer><!-- end #footer-style-1 -->
+    
+    <div id="copyrights">
+    	<div class="container">
+        	<div class="clearfix">
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="copyright-text">
+                        <p>Copyright © 2015 - Designed by Sajid Ali Khan</p>
+                    </div><!-- end copyright-text -->
+                </div><!-- end widget -->
+                <div class="col-lg-7 col-md-6 col-sm-12 clearfix">
+                    <div class="footer-menu">
+                        <ul class="menu">
+                            <li class="active"><a href="home.html" target="_blank">Home</a></li>
+                            <li><a href="appdevelopment.html" target="_blank">App Development</a></li>
+                            <li><a href="codes.html" target="_blank">Codes</a></li>
+                            <li><a href="features.html" target="_blank">Features</a></li>
+                            <li><a href="#" target="_blank">justSajid</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div><!-- end large-7 --> 
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+  	<div class="dmtop">Scroll to Top</div>
+
+      
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/retina.js"></script>
+<script src="js/jquery.jigowatt.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- FlexSlider Scripts-->
+<script src="js/jquery.flexslider.js"></script>
+<script>
+(function($) {
+"use strict";
+$(window).load(function() {
+	$('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+	directionNav: true 
+	});
+});
+})(jQuery);
+</script>
+
+<script src="js/owl.carousel.min.js"></script>
+<script>
+// Carousel
+	(function($) {
+	"use strict";
+    $(document).ready(function() {
+    var owl = $("#clients_carousel");
+    owl.owlCarousel({
+    items : 4, //10 items above 1000px browser width
+    itemsDesktop : [1000,4], //5 items between 1000px and 901px
+    itemsDesktopSmall : [900,2], // betweem 900px and 601px
+    itemsTablet: [600,2], //2 items between 600 and 0
+	navigation : false,
+	pagination : false,
+	autoPlay : true
+    });  
+    });
+	})(jQuery);
+</script>
+
+<script src="js/jquery.fitvids.js"></script>
+<script>
+	(function($) {
+	"use strict";
+	  $(document).ready(function(){
+		// Target your .container, .wrapper, .post, etc.
+		$(".media-element").fitVids();
+	  });
+  	})(jQuery);
+</script>
+
+<!-- Lighbox Effect -->
+<script src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+	(function($) {
+	"use strict";
+        jQuery('a[data-gal]').each(function() {
+            jQuery(this).attr('rel', jQuery(this).data('gal'));
+		});  	
+		jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'light_square',social_tools:false,deeplinking:false});
+	})(jQuery);
+</script>
+
+</body>
+</html>

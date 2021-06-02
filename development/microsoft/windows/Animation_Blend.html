@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>UWP | justSajid</title>
+
+<!-- Favicons - Touch Icons -->
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!-- Responsive Styles -->
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<!-- Bootstrap Styles -->
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css" media="screen">
+<!-- Carousel -->
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+<!-- FlexSlider -->
+<link href="css/flexslider.css" rel="stylesheet" type="text/css">
+<!-- Animate Styles -->
+<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+<!-- Lightbox Styles -->
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css">
+<!-- General Styles -->
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="css/extralayers.css" media="screen" />	
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+	<div class="animationload">
+    <div class="loader">Loading...</div>
+	</div> 
+    
+    <div id="contentdiv">
+        <div id="slidediv">
+            <a class="close-button" id="hidebutton"><i class="fa fa-times"></i></a>
+            <div class="side-brand">
+                <a href="home.html"><img src="images/side-logo.png" alt="Windows App Development"></a>
+            </div>
+            <div class="sidebmenu clearfix">
+                <ul class="menu clearfix">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="windows.html">Windows</a></li>
+                    <li><a href="appdevelopment.html">App Development</a></li>
+                    <li><a href="codes.html">Codes</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="http://www.sajidalikhan.com/blog">justSajid</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+				<div class="custom-menu pull-left clearfix">
+                    <span><a title="Twitter" href="https://twitter.com/SoftwareWarrior" target="_blank"><i class="fa fa-twitter"></i></a></span>
+                    <span><a title="Facebook" href="https://www.facebook.com/thesajidalikhans" target="_blank"><i class="fa fa-facebook"></i></a></span>
+                    <span><a title="Google Plus" href="https://plus.google.com/+Sajidalikhancom" target="_blank"><i class="fa fa-google-plus"></i></a></span>
+                    <span><a title="Search" href="#" data-toggle="modal" data-target=".search_modal"><i class="fa fa-search"></i></a></span>
+                </div><!-- end custom-menu -->
+            </div><!-- end widget -->    
+        </div>
+    </div>
+    
+	<div id="searhmodal" class="modal fade search_modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<form id="searchform" role="form">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<input type="text" class="form-control" placeholder="What you are looking for?">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	
+    
+    <div id="header-container">
+        <header class="header container transparent">
+            <div class="menu-wrapper">
+                <nav id="navigation" class="navbar yamm" role="navigation">
+                    <div class="navbar-inner">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <i class="fa fa-bars fa-2x"></i>
+                            </button>
+                            <a id="brand" class=" navbar-brand" href="index.html"><img src="images/logo1.png" alt="Windows App Development"></a>
+                        </div><!-- end navbar-header -->
+                        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav  scrollable-menu">
+                                <li class="hover-it"><a href="home.html" target="_blank">Home</a>
+                                    
+                                </li><!-- end yamm-fw -->
+                                <li class="hover-it"><a href="windows.html" target="_blank">Windows</a>
+                                    
+                                </li><!-- end yamm-fw -->
+                                <li class="hover-it"><a href="appdevelopment.html" target="_blank">App Development </a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="codes.html" target="_blank">Codes</a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="http://www.sajidalikhan.com/blog/" target="_blank">justSajid </a>
+                                    
+                                </li><!-- end standard drop down -->
+                                <li class="hover-it"><a href="page-contact-1.html" target="_blank">Contact</a></li>
+                            </ul><!-- end navbar-right -->
+							<div class="custom-menu">
+                                <span><a title="Twitter" href="https://twitter.com/SoftwareWarrior" target="_blank"><i class="fa fa-twitter"></i></a></span>
+                                <span><a title="Facebook" href="https://www.facebook.com/thesajidalikhans" target="_blank"><i class="fa fa-facebook"></i></a></span>
+                                <span><a title="Search" href="#" data-toggle="modal" data-target=".search_modal"><i class="fa fa-search"></i></a></span>
+                                
+                                <span><a class="right-menu" id="showbutton"><i class="fa fa-bars"></i></a></span>
+                                            
+							</div><!-- end custom-menu --> 
+                        </div><!-- end navbar-callopse -->
+                    </div><!-- end navbar-inner -->
+                </nav><!-- end navigation -->
+            </div><!-- menu wrapper -->
+        </header><!-- end header -->
+    </div><!-- end header container -->
+    
+    <section class="halfscreen parallax" style="background-image: url('images/blog/post7/1.png');" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
+		<div class="light-overlay overlay dark-version">
+        	<div class="page-header-wrap">
+				<div class="container">
+                    <div class="module">
+                        <div class="title">
+                        <h2><span id="rotateme">JumpStart with Animations in Blend 2015</span></h2>
+                        <p class="lead">Lets do a JumpStart with Animations...</p>
+                        </div>
+                    </div><!-- end module -->
+                </div><!-- end container -->
+            </div><!-- end page-header-wrap -->
+        </div><!-- end overlay -->
+    </section><!-- end section -->
+
+	<section class="white-wrapper clearfix">
+		<div class="container">
+			<div class="content-module">
+           		<div class="content halfwidth">
+                
+                    <div class="general-row clearfix">
+                        <div id="post-content" class="col-md-9">
+
+                    <p class="drop-caps full">The Animations designing in Microsoft Blend 2015 is very interesting and fun to do. Some Magical things happened when Objects move and animate.</p>
+                            
+                            <p>Basically, there are two major animation techniques that are generally used. i.e. Frame-Based & Time-Based Animation.</p>
+                            <p>In frame-based animation, the animation cut into frames and displayed one frame at a time. In old films, you might see that camera does this by recording many photographs (frames) per second, and, when it is played back, it feels like a moving picture. So it happened in a similar manner except that the frames can be further apart in time and the computer will animate and interpolate any changes in between. The problem with such kinds of animations is that they become resource intensive when they run.</p>
+                            <p>In time-based animation, you define the start and end points of a visual transition, and the framework interpolates the property changes over time and displays the animation in our application. In UWP, the animation is time based, so don’t worry about frame based animation…</p>
+                            
+                            
+                            <blockquote>So Simply create a Blank Project in Microsoft Blend for Visual Studio;</blockquote>
+                            <img src="images/blog/post7/2.png" alt="" class="img-responsive aligncenter">
+                    <br>
+                            <blockquote>Now Simply draw an Eclipse for Tool Bar and apply Gradients to it;</blockquote>
+                            <img src="images/blog/post7/3.png" alt="" class="img-responsive aligncenter">
+                            
+                            <blockquote>Now simply go to the ‘Objects and Timeline’ panel and click on the + button in the top-right corner of the panel, as shown in the following screenshot. This will add a storyboard into our application;</blockquote>
+                            <img src="images/blog/post7/4.png" alt="" class="img-responsive aligncenter">
+                            
+                            <blockquote>Now when will get a Popup to set the name of the Storyboard;</blockquote>
+                            <img src="images/blog/post7/5.png" alt="" class="img-responsive aligncenter">
+                            
+                            <blockquote>Simply name the Storyboard. Now when the Storyboard create, you will have the time line in the Objects and Timeline windows;</blockquote>
+                            <img src="images/blog/post7/6.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>Now you can test the storyboard at the design time itself without having to run the application. When you select a storyboard, you see the playback controls on the Objects and Timeline panel. Let's go through them one by one from left to right;</p>
+                            <ul>
+                            <li>First frame: This moves the playhead   to the first frame of the animation</li>
+                                
+                            <li>Previous frame: This moves the playhead to the previous frame</li>
+                            <li>Play: This plays the animation from the current point in time, that is, from the current position of the playhead.</li>
+                            <li>Next frame: This moves the playhead to the next frame.</li>
+                            <li>Last frame: This moves the playhead to the last frame.</li>
+                                
+                            </ul>
+                            
+                            <blockquote>If we select the storyboard and right-click on the animation name, we see multiple options in a popup. Each option in the popup is described in the following list;</blockquote>
+                            <img src="images/blog/post7/7.png" alt="" class="img-responsive aligncenter">
+                            
+                            <ul>
+                            <li>New: This creates a new storyboard and asks for a name for it</li>
+                            <li>Duplicate: This creates a new storyboard that is the same as the existing one</li>
+                                <li>Reverse: This reverses the sequence and keyframes of the existing storyboard</li>
+                                <li>Delete: This deletes the selected storyboard</li>
+                                <li>Rename: This provides us with the option to rename the storyboard</li>
+                                <li>Close: This closes the animation view and storyboard</li>
+                            
+                            </ul>
+                            
+                            <blockquote>Now if you see the Timeline, you can see the great view through each you can easily manage the Timeline;</blockquote>
+                            <img src="images/blog/post7/8.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>Animations in Blend are composed of timelines recorded on keyframes that represent the timing of property changes.</p>
+                            <p>Timelines provides a structure to the animation sequence in our apps. We can think of the timeline as a layer on which the property changes of the objects are applied. The three sections of a timeline are depicted in the following screenshot:</p>
+                            
+                            <ul>
+                                <li>We can see the timeline inside the Objects and Timeline panel. At the top of the Timeline panel, we can see the various controls to play and seek the animation we are designing. The play button is enabled once we have added at least one animation timeframe.</li>
+                                <li>In the second section, you can see the current playhead   position, which is 0:00.000 when we created the storyboard. Also, the other two options next to this playhead position are snapping options. The format of the time displayed is MM:SS:xxx (minutes, seconds, milliseconds) of the currently selected point.</li>
+                                <li>The third section that we see shows the visual representation of the playhead position, and we can drag it to the position we want.</li>
+                            
+                            </ul>
+                            
+                            <p>The Properties Windows of Microsoft Blend also plays a major role with Story Board to manage Animations…</p>
+                            
+                            <p>Moreover you can see the 	Keyframe in the Timeline.</p>
+                            <img src="images/blog/post7/9.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>A keyframe in an animation sets a specific state of an object. A sequence of keyframes defines the object’s movement that we see, and the position of a keyframe defines the object movement timing. </p>
+                            
+                            <p>The first keyframe defines the starting of the animation and the next one determines how it's going to proceed. By changing the surrounding keyframes, we can change the starting or ending point of the transition, depending on whether the keyframe is before or after the transition.</p>
+                            <p>For example, we can set a keyframe at the 0-second mark, record the position of the ball in the top-left corner of the art board, and then set a keyframe at the 1-second mark to record the position of the same ball in the bottom-right corner of the art board. Now, the animation will move the ball from the top-left corner to the bottom-right corner in 1 second.</p>
+                            
+                            <p>We can use these keyframes and the storyboard to change any property of the object, and these properties can be visible or invisible.</p>
+                            <p>Basically there are four types of keyframes in Blend;</p>
+                            <ul>
+                                <li>Object-level keyframes: These keyframes apply to the whole object (such as an ellipse or rectangle) or to the object that contains multiple objects (such as a grid or canvas). In the latter case, when we expand the object node, we can see the individual elements on which we have recorded the keyframe. As we can see in the image, we have set the keyframe on the ellipse. To record such a keyframe, we can click on an object, such as an ellipse or rectangle, and click on the Record Keyframe button.</li>
+                                <li>Compound keyframes: These keyframes imply that the property has child properties being animated. To record such a keyframe, while still in the recording mode, change any of the compound properties of the object and link the translation and the keyframe will be automatically created.</li>
+                                <li>Simple keyframes: These keyframes represent the property change of a single property. As illustrated in the screenshot, the X and Y properties are simple keyframes. To record such a keyframe, while still in the recording mode, change any of the simple properties of the object, and the keyframe will be automatically created.</li>
+                                <li>Implicit keyframes: These keyframes are present when we move from one animation to another and the second animation does not have a keyframe at the 0-second mark. Blend animates the change from the last known value of the property to the first keyframe of the second animation. This last known value is known as the implicit keyframe even when this is the value between two keyframes in the first animation.</li>
+                            
+                            </ul>
+                            
+                            <p>So! Let’s Design some animations to get hands on experience;</p>
+                            <p>Select the ellipse and click on the Record Keyframe button, as shown in the next image. This will record the current state of the selected object. So, when we click on the Record Keyframe button, make sure that we select only relevant objects just as we selected the ellipse here.</p>
+                            
+                            <p>A keyframe is responsible for changing the properties of an object. Once we click on the Record Keyframe button, we can see a white mark in front of the ellipse object as it is the object that was selected when we clicked on Record Keyframe. So, this keyframe has the value of all the properties of ellipse at the 0 sec mark;</p>
+                            
+                            <img src="images/blog/post7/10.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>So! That’s how we can easily insert a keyframe that is at the initial state for the animation to start.</p>
+                            
+                            <blockquote>Now to make some action, lets perform some transmission to the ball;</blockquote>
+                            
+                            <p>Simply move the playhead in the Timeline panel from the current position, that is, 0, to 1. Click on and drag the ellipse to the bottom-right corner of the art board. When we drag the ellipse, we will notice a few changes:</p>
+                            <ul>
+                                <li>The play button is now enabled. When we click on it, we can see the animation playing. And, we see a highlighted white mark of the playhead in front of the ellipse. So, this keyframe saves all the properties of the ellipse at the 1 sec mark.</li>
+                                <li>We also see a series of dots connecting the original position of the ellipse to the new position. This actually depicts the path that the ellipse will follow when the animation happens;</li>
+                            <img src="images/blog/post7/11.png" alt="" class="img-responsive aligncenter">
+                                <li>Now repeat the same step and take the Eclipse to its initial state;</li>
+                                <img src="images/blog/post7/12.png" alt="" class="img-responsive aligncenter">
+                            </ul>
+                            
+                            <p>Now simply click upon Storybard name in the Objects and Timeline Window. You’ll get ‘Common’ in properties Windows. Now simply change the RepeatBehavior to Forever;</p>
+                            
+                            
+                            <img src="images/blog/post7/13.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>So, we have figured out that storyboards are made up of structures called keyframes, and that these structures can be changed by specifying the time, property, and value.</p>
+                            
+                            <p>Now simply go to Assets Windows and in Behaviors select the ControlStoryboardAction’ and drop into the Design surface.</p>
+                            <img src="images/blog/post7/14.png" alt="" class="img-responsive aligncenter">
+                            <p>And in the Properties Window, select the name of Storyboard in the Storyboard option;</p>
+                            <img src="images/blog/post7/15.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>Now when you run the project, you’ll see that the ball will bounce as expected…</p>
+                            <img src="images/blog/post7/16.png" alt="" class="img-responsive aligncenter">
+                            
+                            <p>Now some EeasingFunction, click upon Keyframe in Timeline. Now EasingFunction will appear in Easing Properties;</p>
+                            <img src="images/blog/post7/17.png" alt="" class="img-responsive aligncenter">
+                            <p>And simply select the number of bounces and bounciness;</p>
+                            <img src="images/blog/post7/18.png" alt="" class="img-responsive aligncenter">
+                            <p>Now when you run the Application, then the selected animations will work for you.</p>
+                            <p>Further you can add further animations according to you your wish…</p>
+                            
+                            <blockquote>So! See how interesting is to play with animations...</blockquote>
+                            
+                            <div class="title">
+                        	   <h3>For Handson Demo</h3>
+                            </div>
+                            <blockquote>
+							In order to get a best hands-on experience along with the Blog. Try out the code either By <a href="https://code.msdn.microsoft.com/JUMPSTART-WITH-ANIMATIONS-e1df42d3" target="_blank">MSDN Code Samples</a> or By <a href="https://github.com/SoftwareWarrior/JUMPSTART-WITH-ANIMATIONS-IN-BLEND-2015" target="_blank">GitHub</a>..
+							<small>Software<cite title="Source Title">Warrior</cite></small>
+						</blockquote>
+                            
+             
+                        </div><!-- end post-content -->
+					<div id="sidebar" class="col-md-3">
+                    	<div class="widget clearfix">
+                            <div class="title">
+                                <h3>Previous Posts</h3> 
+                            </div><!-- end title -->
+                            <ul class="portfolio_ul">
+                                <li><a target="_blank" href="#">TBA</a></li>
+                            </ul>
+                        </div><!-- end widget -->
+
+                    	<div class="widget clearfix">
+                            <div class="title">
+                                <h3>Next Posts</h3> 
+                            </div><!-- end title -->
+                            <ul class="portfolio_ul">
+                                <li><a target="_blank" href="#">TBA </a></li>
+                                
+                            </ul>
+                        </div><!-- end widget -->
+					</div><!-- end sidebar -->
+                    </div><!-- end row -->
+                    
+                                    <div class="post_bottom clearfix">
+                                        <div class="next_prev text-center">
+                                            <ul class="pager">
+                                                <li class="previous">
+                                                    <a href="#">← Previews</a>
+                                                </li>
+                                                <li class="next">
+                                                    <a href="#">Next →</a>
+                                                </li>
+                                            </ul>
+                                        </div><!-- next_prev --> 
+                                    </div><!-- post bottom -->
+                    
+                    <div class="module-widget">
+                               <div class="contact_form row clearfix">
+                                    <form id="commentform" action="#" name="contactform" method="post">
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="email" id="email" class="form-control" placeholder="Email Address">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"> 
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                                            <textarea class="form-control active" name="comments" id="comments" rows="6" placeholder="Message"></textarea>
+                                            <button type="submit" value="SEND" id="submit" class="btn btn-primary pull-right">Send Query</button>
+                                        </div>
+                                    </form> 
+                                </div><!-- end contact-form -->
+							</div><!-- end widget -->
+						<br><br><br> 
+                </div><!-- end content -->
+			</div><!-- end module --> 
+		</div><!-- end container -->
+        
+    </section><!-- end white-wrapper-bg -->  
+    
+    
+    <footer id="footer-1" class="footer">
+    	<div class="container">
+        	<div class="clearfix">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="widget first">
+                        <img src="images/flogo.png" alt=""><br><br>
+                        <p>Universal App Development is the beginning of New Era in App Development. One Windows Platform. One Core Operating System. One Application Platform. One Gaming Social Network and One Store.</p>
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="widget first">
+                        <div class="title">
+                            <h3>Contact Us</h3>
+                        </div><!-- end title -->
+                        
+                        <div class="contact_form row clearfix">
+                        <div id="message"></div>
+                            <form id="contactform" action="http://www.sajidalikhan.com/html/justSajid/contact.php" name="contactform" method="post">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"> 
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                                    <textarea class="form-control active" name="comments" id="comments" rows="6" placeholder="Message"></textarea>
+                                    <button type="submit" value="SEND" id="submit" class="btn btn-primary pull-right">Submit</button>
+                                </div>
+                            </form>    
+                        </div><!-- end contact-form -->
+                        
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="widget">
+                        <div class="title">
+                            <h3>Twitter Feeds</h3>
+                        </div><!-- end title -->
+                        <a class="twitter-timeline" href="https://twitter.com/SoftwareWarrior" data-widget-id="660533056776699904">Tweets by @SoftwareWarrior</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        
+                        <!-- end twiteer_feed --> 
+                    </div><!-- end widget -->
+                </div><!-- end columns -->
+                
+                
+                
+                
+                
+            </div><!-- end row -->
+    	</div><!-- end container -->
+    </footer><!-- end #footer-style-1 -->
+    
+    <div id="copyrights">
+    	<div class="container">
+        	<div class="clearfix">
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="copyright-text">
+                        <p>Copyright © 2015 - Designed by Sajid Ali Khan</p>
+                    </div><!-- end copyright-text -->
+                </div><!-- end widget -->
+                <div class="col-lg-7 col-md-6 col-sm-12 clearfix">
+                    <div class="footer-menu">
+                        <ul class="menu">
+                            <li class="active"><a href="home.html" target="_blank">Home</a></li>
+                            <li><a href="appdevelopment.html" target="_blank">App Development</a></li>
+                            <li><a href="codes.html" target="_blank">Codes</a></li>
+                            <li><a href="features.html" target="_blank">Features</a></li>
+                            <li><a href="#" target="_blank">justSajid</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div><!-- end large-7 --> 
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+  	<div class="dmtop">Scroll to Top</div>
+
+      
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/retina.js"></script>
+<script src="js/jquery.jigowatt.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- FlexSlider Scripts-->
+<script src="js/jquery.flexslider.js"></script>
+<script>
+(function($) {
+"use strict";
+$(window).load(function() {
+	$('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+	directionNav: true 
+	});
+});
+})(jQuery);
+</script>
+
+<script src="js/owl.carousel.min.js"></script>
+<script>
+// Carousel
+	(function($) {
+	"use strict";
+    $(document).ready(function() {
+    var owl = $("#clients_carousel");
+    owl.owlCarousel({
+    items : 4, //10 items above 1000px browser width
+    itemsDesktop : [1000,4], //5 items between 1000px and 901px
+    itemsDesktopSmall : [900,2], // betweem 900px and 601px
+    itemsTablet: [600,2], //2 items between 600 and 0
+	navigation : false,
+	pagination : false,
+	autoPlay : true
+    });  
+    });
+	})(jQuery);
+</script>
+
+<script src="js/jquery.fitvids.js"></script>
+<script>
+	(function($) {
+	"use strict";
+	  $(document).ready(function(){
+		// Target your .container, .wrapper, .post, etc.
+		$(".media-element").fitVids();
+	  });
+  	})(jQuery);
+</script>
+
+<!-- Lighbox Effect -->
+<script src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+	(function($) {
+	"use strict";
+        jQuery('a[data-gal]').each(function() {
+            jQuery(this).attr('rel', jQuery(this).data('gal'));
+		});  	
+		jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',slideshow:false,overlay_gallery: false,theme:'light_square',social_tools:false,deeplinking:false});
+	})(jQuery);
+</script>
+
+</body>
+</html>
